@@ -48,7 +48,7 @@ Replace the value with your actual credential. You can obtain these token by sig
 **Running the Project**
 
 ```bash
-npm run json-server
+npm start
 npm run dev
 ```
 
