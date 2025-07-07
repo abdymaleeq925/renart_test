@@ -2,7 +2,8 @@
     "name": "json-server",
     "version": "1.0.0",
     "scripts": {
-           "start": "npx json-server --watch db.json --port $PORT"
+           "start": "json-server --watch db.json --port $PORT",
+           "build": "echo 'No build step required'"
     },
     "dependencies": {
       "json-server": "^1.0.0-beta.3"
