@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Avenir";
-  src: url("/renart_test/public/fonts/avenir/Avenir-Book.ttf") format("truetype");
+  src: url("renart_test/public/fonts/avenir/Avenir-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

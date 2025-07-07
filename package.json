@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@smastrom/react-rating": "^1.5.0",
+    "json-server": "^0.17.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "swiper": "^11.2.10"
