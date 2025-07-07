@@ -6,7 +6,7 @@ This SPA involves slider with jewelry products that contain image, name, price, 
 
 - React + Vite
 - REST API
-= Swiper.js
+- Swiper.js
 - CollectAPI
 
 ## Quick Start
