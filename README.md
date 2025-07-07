@@ -40,7 +40,7 @@ npm install
 Create a new file named `.env.local` in the root of your project and add the following content:
 
 ```env
-VITE_COLLECT_API_TOKEN="<TOKEN_FROM_YOUR_ACCOUNT>"
+VITE_COLLECT_API_TOKEN=<TOKEN_FROM_YOUR_ACCOUNT>
 ```
 
 Replace the value with your actual credential. You can obtain these token by signing up on the [CollectAPI](https://collectapi.com/).

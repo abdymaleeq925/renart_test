@@ -1,6 +1,7 @@
-export const API_TOKEN = import.meta.env.VITE_COLLECT_API_TOKEN;
-export const API_URL = "https://api.collectapi.com/economy/goldPrice";
-export const API_OPTIONS = {
+const API_TOKEN = import.meta.env.VITE_COLLECT_API_TOKEN;
+const API_URL = "https://api.collectapi.com/economy/goldPrice";
+const API_JSON_URL = "https://renart-test.onrender.com/products";
+const API_OPTIONS = {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
@@ -42,7 +43,7 @@ export const getGoldPrice = async () => {
 
 export const getProducts = async (filters = {}) => {
   try {
-    const response = await fetch("https://renart-test.onrender.com/products");
+    const response = await fetch(API_JSON_URL);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     const data = await response.json();
     const goldPrice = await getGoldPrice();
