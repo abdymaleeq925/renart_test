@@ -42,7 +42,7 @@ export const getGoldPrice = async () => {
 
 export const getProducts = async (filters = {}) => {
   try {
-    const response = await fetch("http://localhost:3001/products");
+    const response = await fetch("https://renart-test.onrender.com/products");
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     const data = await response.json();
     const goldPrice = await getGoldPrice();
