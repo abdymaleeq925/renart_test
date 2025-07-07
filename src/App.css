@@ -1,0 +1,83 @@
+#root {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 25px 0 25px;
+}
+
+.filter {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  left: 5%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
+
+.page-title {
+  font-family: 'Avenir';
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.product-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.product-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+}
+
+.color-selection {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-name {
+  font-family: 'Avenir';
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Avenir';
+  font-size: 14px;
+}

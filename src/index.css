@@ -1,0 +1,31 @@
+:root {
+  font-family: system-ui, 'Avenir', 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("/renart_test/src/assets/fonts/avenir/Avenir-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/renart_test/src/assets/fonts/montserat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/renart_test/src/assets/fonts/montserat/Montserrat-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
